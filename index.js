@@ -14,27 +14,43 @@ const questions = [{
     type: 'input',
     message: 'Please add a description of the project.',      
     name: 'description',
-}
+},
 {
     type: 'input',
     message: 'How is the app installed and run?',      
     name: 'install',
-}
+},
 {
     type: 'input',
     message: 'What are the usage instructions for the app?',      
     name: 'usage',
-}
+},
 {
     type: 'input',
-    message: 'What are the instructions for contributing to the project?',      
+    message: 'Who else contributed to this project?',      
     name: 'contribution',
-}
+},
 {
     type: 'input',
     message: 'What are the instructions for testing the app?',      
     name: 'testing',
-}
+},
+{
+    type: 'checkbox',
+    message: 'What License does the app use?',      
+    name: 'license',
+    choices: ['MIT', 'Apache', 'GPL', 'GNU', 'Mozilla Public License'],
+},
+{
+    type: 'input',
+    message: 'What is your GitHub username?',      
+    name: 'github',
+},
+{
+    type: 'input',
+    message: 'What is your contact email?',      
+    name: 'email',
+},
 ]
 
 

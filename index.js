@@ -1,6 +1,7 @@
 
 const inquirer = require('inquirer');
 const fs = require('fs');
+const path = require('path');
 const markdownGenerator = require('./develop/generatemarkdown');
 
 
@@ -36,7 +37,7 @@ const questions = [{
     name: 'testing',
 },
 {
-    type: 'checkbox',
+    type: 'list',
     message: 'What License does the app use?',      
     name: 'license',
     choices: ['MIT', 'Mozilla Public License', 'Apache', 'GPL v3', 'CDDL'],

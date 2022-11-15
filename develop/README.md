@@ -1,8 +1,8 @@
-# Licenses
-
+# List
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-LicenseLink
+List
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -11,17 +11,17 @@ LicenseLink
 * [Testing](#testing)
 * [Questions](#questions)
 ## Installation
-Install
+List
 ## Usage
-Install
+List
 ## License
-
+This project is licensed under the <a href="https://opensource.org/licenses/MIT">MIT</a> license.
 ## Contribution
-Contributors: NA
+Contributors: List
 ## Testing
-NA
+List
 
 ## Questions
-For questions about this repo, application, or to provide feedback please contact me at mark.edward.turner@gmail.com
+For questions about this repo, application, or to provide feedback please contact me at mark
 
 My GitHub repo can be found at [GitHub](https://github.com/TboneXX)

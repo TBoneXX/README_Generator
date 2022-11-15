@@ -1,7 +1,6 @@
 
 const inquirer = require('inquirer');
 const fs = require('fs');
-
 const markdownGenerator = require('./develop/generatemarkdown');
 
 
@@ -40,7 +39,7 @@ const questions = [{
     type: 'checkbox',
     message: 'What License does the app use?',      
     name: 'license',
-    choices: ['MIT', 'Apache 2.0', 'Eclipse 1.0', 'GNU GPL v3', 'Mozilla Public License'],
+    choices: ['MIT', 'Mozilla Public License', 'Apache', 'GPL v3', 'CDDL'],
 },
 {
     type: 'input',
@@ -78,10 +77,11 @@ function init() {
             writeToFile('./develop/README.md', markdownGenerator(data));
             console.log(data)
             console.log(data.license)
-
+            
              }) 
-        
+           
 }
+
 
 // Function call to initialize app
 init();

@@ -1,11 +1,8 @@
-# Professional README Generator
+# Example Project Title
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-This node.js application uses the inquirer command line interface   to gather information about the project and then creates a professional README based the user inputs
-
-Link to demonstration: <a href= "https://drive.google.com/file/d/1aSbWYDG0cFz1GDT17GDp6CSUNyP076sA/view">Demo</a>
-
+This project demonstrates the functionality of the README generator script
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -14,15 +11,15 @@ Link to demonstration: <a href= "https://drive.google.com/file/d/1aSbWYDG0cFz1GD
 * [Testing](#testing)
 * [Questions](#questions)
 ## Installation
-The application is run from the terminal command line by running node index.js
+Open the terminal and run node index.js
 ## Usage
-Upon initializing the app a series of questions about the project are asked, enter the appropriate information into the prompts to generate each appropriate section of the README
+Answer the inquirer prompts to populate the data for each section of the README
 ## License
 This project is licensed under the <a href="https://opensource.org/licenses/MIT">MIT</a> license.
 ## Contribution
 Contributors: N/A
 ## Testing
-Check README output against inputs
+Testing is manual, compare the outputs on the README to the desired inputs
 
 ## Questions
 For questions about this repo, application, or to provide feedback please contact me at mark.edward.turner@gmail.com
